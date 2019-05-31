@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+  <default-config>
+	<property name="driverClass">com.mysql.jdbc.Driver</property>
+	<property name="jdbcUrl">jdbc:mysql://localhost:3309/wqstore</property>
+	<property name="user">root</property>
+	<property name="password">123</property>
+	<property name="initialPoolSize">10</property>
+	<property name="maxPoolSize">30</property>
+	<property name="minPoolSize">10</property>
+	<property name="breakAfterAcquireFailure">false</property>
+	<property name="acquireRetryAttempts">10</property>
+	<property name="unreturnedConnectionTimeout">20</property>
+  
+    <!--  反射
+    	  XML的解析:
+     -->
+  </default-config>
+</c3p0-config>

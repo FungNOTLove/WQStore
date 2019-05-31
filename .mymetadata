@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="WQStore"
+  id="myeclipse.1530839466811"
+  context-root="/WQStore"
+  j2ee-spec="6.0"
+  archive="WQStore.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
